@@ -6,13 +6,8 @@ package com.javarush.task.pro.task17.task1702;
 
 public class Solution {
     public static void main(String[] args) {
-        Shape shape = new Shape();
-        Circle circle = new Circle();
-        Rectangle rectangle = new Rectangle();
-        Triangle triangle = new Triangle();
-        shape.printInfo();
-        circle.printInfo();
-        rectangle.printInfo();
-        triangle.printInfo();
+        for(int i = 0; i < 10; i++) {
+            continue;
+        }
     }
 }

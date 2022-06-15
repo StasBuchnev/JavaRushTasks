@@ -1,6 +1,6 @@
 package com.javarush.task.pro.task18.task1801;
 
-import java.util.ArrayList;
+import java.util.*;
 
 /* 
 Две реализации одного интерфейса
@@ -9,11 +9,16 @@ import java.util.ArrayList;
 public class Solution {
     public static ArrayList<Runnable> list = new ArrayList<>();
 
+    public static int[]list2 =  new int[]{23,34,123,123,21};
+    public static ArrayList<Runnable>runnables = new ArrayList<>();
+
+
     public static void main(String[] args) {
         addToList(new Car());
         addToList(new Plane());
-
+Arrays.sort(list2);
         runList();
+
     }
 
     public static void addToList(Runnable runnable) {
@@ -24,5 +29,8 @@ public class Solution {
         for (Runnable runnable : list) {
             runnable.run();
         }
+
+
+
     }
 }
