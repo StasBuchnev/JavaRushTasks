@@ -1,8 +1,5 @@
 package com.javarush.task.task11.task1123;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class Solution {
     public static void main(String[] args) {
         int[] data = new int[]{1, 2, 3, 5, -2, -8, 0, 77, 5, 5};
@@ -17,20 +14,10 @@ public class Solution {
         if (inputArray == null || inputArray.length == 0) {
             return new Pair(null, null);
         }
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
 
-        for (int j : inputArray) {
-            if (j > max) {
-                max = j;
-            }
-            if (j < min) {
-                min = j;
-            }
-        }
+        // напишите тут ваш код
 
-
-        return new Pair(min, max);
+        return new Pair(0, 0);
     }
 
     public static class Pair {

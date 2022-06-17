@@ -26,7 +26,6 @@ public class Solution {
     public static void main(String[] args) {
         InputStream inputStream;
         OutputStream outputStream;
-        outputStream.
     }
 
     public class Cat implements CanRun,CanClimb {
